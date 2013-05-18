@@ -1,0 +1,227 @@
+/* reset */
+body {
+	margin-top: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	color: #4c4c4c;
+	font-size: 14px;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #178799;
+}
+
+h3 {
+	color: #178799;
+	font-size: 18px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+	margin-bottom: 4px;
+	margin-top: 3px;
+}
+
+p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.cleafix {
+	clear: both;
+}
+/* header */
+	/* Slogan bar */
+		.slogan-bar {
+			float: left;
+			margin-left: 63px;
+
+		}
+
+		.logo {
+			display: block;
+			width: 319px;
+			height: 135px;
+			background: url('../images/logo.png');
+			background-repeat: no-repeat;
+		}
+
+		.slogan {
+			font-size: 30px;
+			color: #178799;
+			margin-top: 35px;
+			margin-bottom: 5px;
+			font-weight: bold;
+			position: relative;
+		}
+
+		.slogan div {
+			background: url('../images/slogan_bg.png') repeat-x;
+			position: absolute;
+			width: 100%;
+			height: 37px;
+
+		}
+
+	/** Order bar */
+		.order-bar {
+			float: right;
+		}
+
+		.order-btn {
+			background: url('../images/order_bg.png');
+			width: 261px;
+			height: 61px;
+			display: block;
+			text-align: center;
+		}
+
+		.order-text {
+			vertical-align: -35px;
+			font-size: 24px;
+			color: white;
+			text-shadow: 2px 2px black;
+		}
+
+		/** phone bar */
+			.phone-bar {
+				text-align: center;
+				margin-top: 50px;
+			}
+
+			.telephone a {
+				font-size: 22px;
+				text-decoration: none;
+				color: inherit;
+			}
+
+			.tel-description {
+				font-size: 14px;
+				font-weight: bold;
+			}
+
+			.order-call-btn {
+				background-image: url('../images/btn_bg.png');
+				width: 193px;
+				height: 49px;
+				background-color: transparent;
+				border: 0;
+				background-repeat: no-repeat;
+				padding: 0;		
+
+				font-size: 17px;
+				color: white;
+				margin-top: 10px;	
+			}
+
+	/** Navigation */
+		nav {
+			background-image: url('../images/menu-bg.png');
+			background-repeat: no-repeat;
+			margin: 0 auto;
+			width: 951px;
+			height: 60px;
+			position: relative;
+		}
+
+		.menu > div {
+			position: absolute;
+			top: 14px;
+		}
+
+		.menu a {
+			text-decoration: none;
+			color: white;
+		}
+		.item-101 {
+			left: 120px;
+		}
+
+		.item-102 {
+			left: 247px;
+		}
+
+		.item-103 {
+			left: 571px;
+		}
+
+		.item-104 {
+			left: 661px;
+		}
+
+		.item-105 {
+			left: 749px;
+		}
+
+		.item-106 {
+			display: none;
+		}
+/* middle container */
+
+	/* main content */
+		.main-content {
+			width: 640px;
+			margin-left: 63px;
+			float: left;
+		}
+
+		.article-intro {
+			height: 330px;
+		}
+
+		.article-main {
+			background-color: #dddee3;
+		}
+
+	/* right sidebar */
+		.right_sidebar {
+			float: right;
+			width: 250px;
+			margin-right: 60px;
+			padding-left: 10px;
+			margin-top: -20px;
+		}
+
+		.order-form-header, .order-form-main {
+			padding: 0 20px;
+			text-align: center;
+			background-color: #e7e7e7;
+			box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+			padding-top: 3px;
+		}
+
+		.order-form-main {
+			line-height: 16px;
+		}
+
+		.order-form-img {
+			margin-left: 107px;
+			width: 26px;
+			margin-top: 5px;
+		}
+
+		.order-form-main label {
+			float: left;
+			line-height: 23px;
+		}
+
+		.order-form-main input {
+			float: right;
+		}
+
+		.order-form-main textarea {
+			width: 202px;
+		}
+
+
+.besps_holder {
+  clear: both;
+}
+
+.img-intro-left {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
