@@ -3,11 +3,15 @@ $doc = JFactory::getDocument();
 
 $BASE_PATH = $this->baseurl.'/templates/'.$this->template;
 
-$doc->addStyleSheet($BASE_PATH . '/css/bootstrap/bootstrap.css');
-$doc->addStyleSheet($BASE_PATH . '/css/template.css');
+$doc->addScript($BASE_PATH . '/js/main.js');
 
-$doc->addScript($BASE_PATH . '/js/bootstrap.js', 'text/javascript');
-$doc->addScript($BASE_PATH . '/js/main.js', 'text/javascript');
+$doc->addStyleSheet($BASE_PATH . '/css/template.css');
+$doc->addStyleSheet($BASE_PATH . '/css/shame.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/main.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/feedback.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/actions.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/footer.css');
+
 
 $app = JFactory::getApplication();
 $menu = $app->getMenu();
@@ -20,9 +24,17 @@ $menu = $app->getMenu();
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:300,400,700&subset=cyrillic' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<jdoc:include type="head" />
+	<script type="text/javascript" src="http://vk.com/js/api/openapi.js?95"></script>
+
+	<script type="text/javascript">
+	  VK.init({apiId: 3607107, onlyWidgets: true});
+	</script>
+
 
 </head>
 <body>
+	<a name="top"></a>
+
 	<!-- main container -->
 	<div class='container'>
 		<!-- header -->
@@ -40,7 +52,7 @@ $menu = $app->getMenu();
 					<div class="tel-description">
 						<span>Ежедневно c 9 до 22</span>
 					</div>
-					<button class='order-call-btn'>Заказать<br/>бесплатный&nbsp;звонок</button>	
+					<a class='order-call-btn'></a>	
 				</div>
 			</div>
 		   	<?php echo JHtml::_('content.prepare', '{besps}slider{/besps}'); ?>
@@ -60,28 +72,34 @@ $menu = $app->getMenu();
 					<jdoc:include type="component" />
 				</div>
 							<!-- right sidebar -->
-				<div class='right_sidebar'>
-					<jdoc:include type="module" name="mod_custom" style="Order form"/>
+				<div class='right-sidebar'>
+					<jdoc:include type="modules" name="order-form"/>
+					<jdoc:include type="modules" name="feedback" />
+					<jdoc:include type="modules" name="actions" />
+
 					<jdoc:include type="modules" name="right-sidebar" style="well"/>
 				</div>
 			</div>
 			<div class="second-half">
 				<div class="main-content">
 				</div>
-				<div class='right_sidebar'>
+				<div class='right-sidebar'>
 				</div>
 			</div>
 			<div class="cleafix"></div>
 		</div>
-
+	</div>
 		<!-- footer -->
 		<footer>
-			<jdoc:include type="modules" name="footer"/>
-			Elena Fedorova (c)
+			<a href="#top" id="gtop" class="go-top"></a>
+			<div class="container footer-content">
+				<jdoc:include type="modules" name="footer"/>
+			</div>
 		</footer>
 
-
-	</div>
+	<script type="text/javascript">
+		// VK.Widgets.Comments("vk_comments", {limit: 10, width: "300", attach: "*"});
+	</script>
 
 </body>
 </html>

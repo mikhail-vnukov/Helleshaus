@@ -1,0 +1,37 @@
+.actions {
+	width: 250px;
+	margin-top: 20px;
+}
+.actions-body {
+	background: url('../../images/modules/action-body-bg.png') repeat-x;
+	height: 230px;
+	margin-top: -13px;
+}
+
+
+.actions img {
+	float: right;
+	margin-top: 20px;
+	margin-right: 5px;
+}
+
+.actions p {	
+	padding-top: 14px;
+	padding-left: 15px;
+	color: #ed1d24;
+	font-size: 16px;
+	margin-top: 0;
+}
+
+.headband {
+	position: relative;
+	z-index: 1;
+	width: 275px;
+	height: 42px;
+	background: url('../../images/modules/headband.png') no-repeat;
+	color: white;
+
+	padding-top: 10px;
+	padding-left: 10px;
+	text-shadow: 2px 2px black;
+}

@@ -1,0 +1,16 @@
+.footer-contacts {
+	position: absolute;
+	bottom: 10px;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 10px;
+	right: 250px;
+}
+
+.reference {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}

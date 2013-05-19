@@ -1,0 +1,13 @@
+
+/* middle container */
+
+	/* main content */
+		.article-main-wrapper {
+			width: 100%;
+			margin-left: -15px;
+			padding-left: 15px;
+		}
+			
+		.article-main {
+			width: 640px;
+		}
