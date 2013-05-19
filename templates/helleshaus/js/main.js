@@ -1,10 +1,10 @@
 function stretchAndBend(element) {
-	var width = $(window).width();
-	var marginLeft = (width - 1024);
+	var width = $(window).innerWidth();
+	var marginLeft = element.offset().left + 15;
 
-	element.width(width - marginLeft);
+	element.width(width);
 	element.css('margin-left', -marginLeft);
-	element.css('padding-left', marginLeft);
+	$(".article-main").css('margin-left', marginLeft);
 
 }
 (function($) {
