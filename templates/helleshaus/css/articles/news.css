@@ -1,0 +1,53 @@
+.published {
+	float: left;
+	width: 140px;
+	margin-left: 0;
+	margin-right: 21px;
+}
+
+.img_caption {
+	display: none;
+}
+
+.item-separator {
+	margin-top: 50px;
+}
+
+.date-month-day, .date-year {
+	height: 20px;
+	width: 100px;
+	line-height: 20px;
+	margin: auto;
+	text-align: center;
+	font-size: 12px;
+}
+
+.date-month-day {
+	color: white;
+	background: url('../../images/articles/date-minor-bg.png') repeat-x;
+}
+
+.date-year {
+	background: url('../../images/articles/date-major-bg.png') repeat-x;	
+}
+
+/* pagination */
+	.pagination {
+		float: right;
+	}
+	.pagination li {
+		display: inline;
+		margin-left: 10px;
+	}
+
+	.pagination {
+		color: #ed1d24;
+	}
+
+	.pagination a, .pagination-prev, .pagination-start {
+		color: #178799;
+	}
+
+	.counter {
+		display: none;
+	}

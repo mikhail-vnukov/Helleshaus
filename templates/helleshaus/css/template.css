@@ -24,9 +24,18 @@ h3 {
 	margin-top: 3px;
 }
 
+h4 {
+	color: #ed1d24;
+	font-size: 16px;
+}
+
 p {
 	margin-top: 4px;
 	margin-bottom: 4px;
+}
+
+a {
+	color: #178799;
 }
 
 .cleafix {
@@ -245,4 +254,12 @@ p {
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+}
+
+.blog .item > p  {
+	display: inline;
+/*	color: #ed1d24;
+	font-size: 16px;
+*/
+
 }

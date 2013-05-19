@@ -11,6 +11,7 @@ $doc->addStyleSheet($BASE_PATH . '/css/articles/main.css');
 $doc->addStyleSheet($BASE_PATH . '/css/articles/feedback.css');
 $doc->addStyleSheet($BASE_PATH . '/css/articles/actions.css');
 $doc->addStyleSheet($BASE_PATH . '/css/articles/footer.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/news.css');
 
 
 $app = JFactory::getApplication();
