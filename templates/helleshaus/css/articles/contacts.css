@@ -1,0 +1,15 @@
+.header2 {
+	color: #ed1d24;
+	border-bottom: 2px solid #ed1d24;
+	margin-top: 30px;
+}
+.email {
+	color: #178799;
+	font-weight: bold;
+}
+.sub-header {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #178799;
+	font-weight: bold;
+}

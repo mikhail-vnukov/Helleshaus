@@ -1,0 +1,9 @@
+.intro-job {
+	font-size: 16px;
+	text-indent: 10px;
+}
+
+.job-requirements li {
+	list-style-type: disc;
+	list-style-image: none;
+}

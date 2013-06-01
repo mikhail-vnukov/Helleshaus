@@ -11,6 +11,7 @@
 
 .item-separator {
 	margin-top: 50px;
+	clear: both;
 }
 
 .date-month-day, .date-year {
@@ -29,6 +30,10 @@
 
 .date-year {
 	background: url('../../images/articles/date-major-bg.png') repeat-x;	
+}
+
+.blog .item > p  {
+	display: inline;
 }
 
 /* pagination */

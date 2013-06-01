@@ -1,0 +1,51 @@
+.order-form-main button {
+	width: 89px;
+	height: 27px;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.order-form-header, .order-form-main {
+	padding: 0 20px;
+	text-align: center;
+	background-color: #e7e7e7;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+	padding-top: 3px;
+}
+
+.order-form-main {
+	line-height: 16px;
+	height: 245px;
+}
+
+.order-form-img {
+	margin-left: 107px;
+	width: 26px;
+	margin-top: 5px;
+}
+
+.order-form-main label {
+	float: left;
+}
+
+.order-form-main input {
+	float: right;
+	width: 130px;
+}
+
+.order-form-main textarea {
+	width: 202px;
+}
+
+.input-group {
+	line-height: 23px;
+
+}
+.input-group:after {
+	content: ".";
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}

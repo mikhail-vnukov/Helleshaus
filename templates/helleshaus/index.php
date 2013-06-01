@@ -12,6 +12,13 @@ $doc->addStyleSheet($BASE_PATH . '/css/articles/feedback.css');
 $doc->addStyleSheet($BASE_PATH . '/css/articles/actions.css');
 $doc->addStyleSheet($BASE_PATH . '/css/articles/footer.css');
 $doc->addStyleSheet($BASE_PATH . '/css/articles/news.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/about.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/contacts.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/job.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/prices.css');
+
+$doc->addStyleSheet($BASE_PATH . '/css/articles/order-form-module.css');
+$doc->addStyleSheet($BASE_PATH . '/css/articles/clients-footer-module.css');
 
 
 $app = JFactory::getApplication();
@@ -76,19 +83,17 @@ $menu = $app->getMenu();
 				<div class='right-sidebar'>
 					<jdoc:include type="modules" name="order-form"/>
 					<jdoc:include type="modules" name="feedback" />
+					<jdoc:include type="modules" name="services"/>
+
 					<jdoc:include type="modules" name="actions" />
 
 					<jdoc:include type="modules" name="right-sidebar" style="well"/>
 				</div>
 			</div>
-			<div class="second-half">
-				<div class="main-content">
-				</div>
-				<div class='right-sidebar'>
-				</div>
-			</div>
-			<div class="cleafix"></div>
 		</div>
+		<div class="cleafix"></div>
+		<jdoc:include type="modules" name="clients-footer" />
+
 	</div>
 		<!-- footer -->
 		<footer>

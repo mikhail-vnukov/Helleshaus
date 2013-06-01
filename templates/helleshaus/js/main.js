@@ -7,6 +7,7 @@ function stretchAndBend(element) {
 	$(".article-main").css('margin-left', marginLeft);
 
 }
+
 (function($) {
 	$(document).ready(function() {
 

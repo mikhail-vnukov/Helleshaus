@@ -1,0 +1,97 @@
+.prices-intro-text {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.prices {
+	background: #5cbdcc; /* Old browsers */
+	background: -moz-linear-gradient(top, #5cbdcc 0%, #ffffff 25%, #ffffff 75%, #5cbdcc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5cbdcc), color-stop(25%,#ffffff), color-stop(75%,#ffffff), color-stop(100%,#5cbdcc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5cbdcc 0%,#ffffff 25%,#ffffff 75%,#5cbdcc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5cbdcc 0%,#ffffff 25%,#ffffff 75%,#5cbdcc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #5cbdcc 0%,#ffffff 25%,#ffffff 75%,#5cbdcc 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #5cbdcc 0%,#ffffff 25%,#ffffff 75%,#5cbdcc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cbdcc', endColorstr='#5cbdcc',GradientType=0 ); /* IE6-9 */
+
+	padding: 10px 10px 0 10px;
+}
+
+.prices-table {
+	width: 100%;
+	line-height: 16px;
+	border-spacing: 0;
+	font-size: 14px;
+}
+.header {
+	background-color: white;
+	color: #ed1d24;
+	text-shadow: 0px 0px 1px rgba(237,29,36,1);
+	font-size: 18px;
+
+}
+
+.prices-sub-header {
+	font-size: 16px;
+	text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+.sub-header-row a, .sub-header-row div {
+	background-color: #dddee3;
+/*	padding: 0 10px;
+	width: 100%;	*/
+}
+.third-column {
+	padding: 0 10px;
+	width: 100%;
+}
+
+.sub-header-row td {
+	padding: 10px 0;
+}
+
+.order-calculate-btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	padding:1px 8px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #b23e35;
+	line-height: 13px;
+}
+.order-calculate-btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}
+.order-calculate-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.header-row.individuals {
+	padding: 10px 0;
+}
+
+.clean-room {
+	background-color: #addee5;
+}
+
+.clean-room .sub-header-row td {
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.clean-room .sub-header {
+	font-weight: bold;
+}

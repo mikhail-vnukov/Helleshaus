@@ -12,6 +12,10 @@ body {
 	margin: 0 auto;
 }
 
+li {
+	list-style-image: url(../images/check-about.png);
+}
+
 h2 {
 	color: #178799;
 }
@@ -36,6 +40,10 @@ p {
 
 a {
 	color: #178799;
+}
+
+strong {
+	color: #ed1d24;
 }
 
 .cleafix {
@@ -78,6 +86,7 @@ a {
 	/** Order bar */
 		.order-bar {
 			float: right;
+			margin-bottom: 12px;
 		}
 
 		.order-btn {
@@ -129,6 +138,7 @@ a {
 			width: 951px;
 			height: 60px;
 			position: relative;
+			top: -1px;
 		}
 
 		.menu > div {
@@ -175,7 +185,7 @@ a {
 		}
 
 		.article-intro {
-			height: 330px;
+			height: 365px;
 		}
 
 		.article-main-wrapper {
@@ -192,36 +202,7 @@ a {
 			margin-top: -20px;
 		}
 
-		.order-form-header, .order-form-main {
-			padding: 0 20px;
-			text-align: center;
-			background-color: #e7e7e7;
-			box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
-			padding-top: 3px;
-		}
 
-		.order-form-main {
-			line-height: 16px;
-		}
-
-		.order-form-img {
-			margin-left: 107px;
-			width: 26px;
-			margin-top: 5px;
-		}
-
-		.order-form-main label {
-			float: left;
-			line-height: 23px;
-		}
-
-		.order-form-main input {
-			float: right;
-		}
-
-		.order-form-main textarea {
-			width: 202px;
-		}
 
 /* footer */
 	footer {
@@ -256,10 +237,8 @@ a {
 	margin-bottom: 10px;
 }
 
-.blog .item > p  {
-	display: inline;
-/*	color: #ed1d24;
-	font-size: 16px;
-*/
 
-}
+
+
+
+

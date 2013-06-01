@@ -43,7 +43,19 @@ JHtml::addIncludePath(JPATH_COMPONENT.'/helpers');
 	</div>
 <?php endif; ?>
 
-
+<div class="items">
+	<?php foreach ($this->items as &$item) : ?>
+		<div class="leading-<?php echo $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?>">
+			<?php
+				$this->item = &$item;
+				echo $this->loadTemplate('item');
+			?>
+		</div>
+		<?php
+			$leadingcount++;
+		?>
+	<?php endforeach; ?>
+</div>
 
 <?php $leadingcount=0 ; ?>
 <?php if (!empty($this->lead_items)) : ?>
@@ -61,6 +73,8 @@ JHtml::addIncludePath(JPATH_COMPONENT.'/helpers');
 	<?php endforeach; ?>
 </div>
 <?php endif; ?>
+
+
 <?php
 	$introcount=(count($this->intro_items));
 	$counter=0;

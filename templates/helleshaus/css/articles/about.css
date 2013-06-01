@@ -1,0 +1,30 @@
+.intro-about {
+	font-size: 16px;
+	text-indent: 10px;
+}
+
+.img-about {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img-about a{
+	margin-left: 50px;
+	margin-right: 84px;
+	text-decoration: none;
+}
+
+.list-about li {
+	padding-top: 30px;
+	margin-left: 20px;
+}
+.slogan-about{
+	margin-left: 35px;
+}
+.description-slogan-about {
+	color: #178799;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 100px;
+}

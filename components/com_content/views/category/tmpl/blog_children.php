@@ -40,7 +40,16 @@ $class = ' class="first"';
 					<?php echo JText::_('COM_CONTENT_NUM_ITEMS') ; ?>
 				</dt>
 				<dd>
-					<?php echo $child->getNumItems(true); ?>
+					<?php echo $child->getNumItems(true);
+						$items = $this->get('Items');
+						foreach ($items as &$item)
+						{
+							if ($item->catid == $child->id) {
+								$this->item = &$item;
+								echo $this->loadTemplate('item');
+							}
+						}
+						 ?>
 				</dd>
 			</dl>
 			<?php endif ; ?>
@@ -49,6 +58,8 @@ $class = ' class="first"';
 				$this->children[$child->id] = $child->getChildren();
 				$this->category = $child;
 				$this->maxLevel--;
+				echo $this->maxLevel;
+
 				if ($this->maxLevel != 0) :
 					echo $this->loadTemplate('children');
 				endif;
